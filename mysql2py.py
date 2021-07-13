@@ -1,6 +1,6 @@
 import mysql.connector
 import pandas as pd
-x=mysql.connector.connect(user="root",password="CemKaraca2112.",host="localhost",database="mytable")
+x=mysql.connector.connect(user="root",password="***",host="localhost",database="mytable")
 mycursor= x.cursor()
 mycursor.execute("select * from mytable ")
 z=mycursor.fetchall()
